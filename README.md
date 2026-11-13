@@ -10,11 +10,12 @@ The notebook explores a customer-month dataset and estimates the probability of 
 
 ```bash
 python -m venv .venv
+source .venv/bin/activate
 python -m pip install -r requirements.txt
 python -m jupyterlab
 ```
 
-Activate the virtual environment before installing. Open `propensity-model.ipynb` and provide the course datasets alongside it:
+On Windows PowerShell, activate with `.\.venv\Scripts\Activate.ps1` instead of `source`. Open `propensity-model.ipynb` and provide the course datasets alongside it:
 
 - `bank_product_propensity_dataset.csv`
 - `bank_product_propensity_predict.csv`
